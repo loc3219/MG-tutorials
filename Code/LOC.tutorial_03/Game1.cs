@@ -12,10 +12,14 @@ namespace LOC.Tutorial_03
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        private Texture2D arrow;
+        private float angle = 0;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
         }
 
         /// <summary>
@@ -40,6 +44,8 @@ namespace LOC.Tutorial_03
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            arrow = Content.Load<Texture2D>("arrow");
+
             // TODO: use this.Content to load your game content here
         }
 
@@ -62,6 +68,8 @@ namespace LOC.Tutorial_03
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+            angle += 0.01f;
+
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -73,7 +81,17 @@ namespace LOC.Tutorial_03
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Coral);
+            GraphicsDevice.Clear(Color.Navy);
+
+            spriteBatch.Begin();
+
+            Vector2 location = new Vector2(400, 240);
+            Rectangle sourceRectangle = new Rectangle(0, 0, arrow.Width, arrow.Height);
+            Vector2 origin = new Vector2(0, 0);
+
+            spriteBatch.Draw(arrow, location, sourceRectangle, Color.White, angle, origin, 1.0f, SpriteEffects.None, 1);
+
+            spriteBatch.End();
 
             // TODO: Add your drawing code here
 
