@@ -7,7 +7,7 @@ namespace LOC.Tutorial_01
 {
     /// <summary>
     /// This is the main type for your game.
-    /// This is a test change!! JW
+    /// This is a change!!! JW
     /// </summary>
     public class Game1 : Game
     {

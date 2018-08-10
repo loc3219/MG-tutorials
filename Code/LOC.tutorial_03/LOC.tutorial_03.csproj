@@ -6,11 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D703A363-E38C-40A1-B531-935280B5D9B2}</ProjectGuid>
+    <ProjectGuid>{14EA0140-240E-46A8-9D38-42816B5A7208}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LOC.tutorial_03</RootNamespace>
-    <AssemblyName>LOC.tutorial_03</AssemblyName>
+    <RootNamespace>LOC.Tutorial_03</RootNamespace>
+    <AssemblyName>LOC.Tutorial_03</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MonoGamePlatform>Windows</MonoGamePlatform>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
