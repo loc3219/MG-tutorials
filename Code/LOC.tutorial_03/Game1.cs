@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace LOC.tutorial_03
+namespace LOC.Tutorial_03
 {
     /// <summary>
     /// This is the main type for your game.
