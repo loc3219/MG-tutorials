@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LOC.tutorial_03
+namespace LOC.Tutorial_03
 {
 #if WINDOWS || LINUX
     /// <summary>

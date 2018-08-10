@@ -9,8 +9,8 @@
     <ProjectGuid>{14EA0140-240E-46A8-9D38-42816B5A7208}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LOC.tutorial_03</RootNamespace>
-    <AssemblyName>LOC.tutorial_03</AssemblyName>
+    <RootNamespace>LOC.Tutorial_03</RootNamespace>
+    <AssemblyName>LOC.Tutorial_03</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MonoGamePlatform>Windows</MonoGamePlatform>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>

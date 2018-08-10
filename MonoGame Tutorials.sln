@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOC.Tutorial_01", "Code\LOC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOC.Tutorial_02", "Code\LOC.Tutorial_02\LOC.Tutorial_02.csproj", "{A674ED88-ECE1-4E61-9DD3-80C3B3B27B6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOC.tutorial_03", "Code\LOC.tutorial_03\LOC.tutorial_03.csproj", "{14EA0140-240E-46A8-9D38-42816B5A7208}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOC.Tutorial_03", "Code\LOC.tutorial_03\LOC.Tutorial_03.csproj", "{14EA0140-240E-46A8-9D38-42816B5A7208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
