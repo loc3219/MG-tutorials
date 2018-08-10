@@ -81,7 +81,7 @@ namespace LOC.Tutorial_03
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Coral);
+            GraphicsDevice.Clear(Color.Navy);
 
             spriteBatch.Begin();
 
